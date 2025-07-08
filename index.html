@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeAI - AI-powered Resume & CV Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">ResumeAI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#templates">Templates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="ms-4">
+                        <a href="#" class="btn btn-outline-primary me-2">Login</a>
+                        <a href="#" class="btn btn-primary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="gradient-bg"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="hero-title kinetic-text">
+                        <span>L</span><span>a</span><span>n</span><span>d</span> <span>y</span><span>o</span><span>u</span><span>r</span> <span>d</span><span>r</span><span>e</span><span>a</span><span>m</span> <span>j</span><span>o</span><span>b</span> with an <span class="highlight">AI-optimized CV</span> in minutes.
+                    </h1>
+                    <p class="hero-subtitle">Our AI-powered platform analyzes thousands of successful resumes to create the perfect CV tailored to your industry and role.</p>
+                    <div>
+                        <a href="#" class="btn btn-primary">Start Free Trial <i class="ri-arrow-right-line"></i></a>
+                        <a href="#templates" class="btn btn-ghost">View Templates</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="resume-preview">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/7115ee3bf73fb6c0bd93d84e5577cbdad9dc273105f6eae8b63ff62203758fe4.jpg" alt="Resume Preview" class="resume-preview-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful AI Features</h2>
+            <p class="section-subtitle">Our advanced AI technology analyzes your experience and skills to create a resume that stands out to recruiters and ATS systems.</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">
+                            <i class="ri-robot-line"></i>
+                        </div>
+                        <h3 class="feature-title">AI Content Generation</h3>
+                        <p class="feature-description">Our AI analyzes your experience and generates professional, impactful content that highlights your achievements.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">
+                            <i class="ri-file-search-line"></i>
+                        </div>
+                        <h3 class="feature-title">ATS Optimization</h3>
+                        <p class="feature-description">Ensure your resume passes through Applicant Tracking Systems with our keyword optimization technology.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">
+                            <i class="ri-layout-masonry-line"></i>
+                        </div>
+                        <h3 class="feature-title">Beautiful Templates</h3>
+                        <p class="feature-description">Choose from dozens of professionally designed templates that are both visually appealing and ATS-friendly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">
+                            <i class="ri-edit-line"></i>
+                        </div>
+                        <h3 class="feature-title">Easy Customization</h3>
+                        <p class="feature-description">Customize every aspect of your resume with our intuitive drag-and-drop editor - no design skills needed.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">
+                            <i class="ri-translate-2"></i>
+                        </div>
+                        <h3 class="feature-title">Multi-language Support</h3>
+                        <p class="feature-description">Create resumes in multiple languages to apply for international positions with confidence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">
+                            <i class="ri-line-chart-line"></i>
+                        </div>
+                        <h3 class="feature-title">Performance Analytics</h3>
+                        <p class="feature-description">Track how your resume performs and get AI-powered suggestions to improve your application success rate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section id="templates" class="templates">
+        <div class="container">
+            <h2 class="section-title">Professional Templates</h2>
+            <p class="section-subtitle">Choose from our collection of ATS-friendly templates designed to impress recruiters across all industries.</p>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="template-card">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/9c54c19f27a2442185cd6d3a91a4f21cb034f5bb287aded920d3c28636cce636.jpg" alt="Modern Template" class="template-img">
+                        <div class="template-info">
+                            <h4 class="template-title">Modern Professional</h4>
+                            <p class="template-category">Corporate, Finance, Technology</p>
+                            <a href="#" class="btn btn-primary template-btn">Use This Template</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="template-card">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/2f8abb8392568167b1271cecf583dc7df82bd581f57990ea8c786fe3addaf339.jpg" alt="Creative Template" class="template-img">
+                        <div class="template-info">
+                            <h4 class="template-title">Creative Impact</h4>
+                            <p class="template-category">Design, Marketing, Arts</p>
+                            <a href="#" class="btn btn-primary template-btn">Use This Template</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="template-card">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/3590f89892738adff2c5555f04b3e9d40fd17fccb4dbc03e719d482c17ed92b8.jpg" alt="Executive Template" class="template-img">
+                        <div class="template-info">
+                            <h4 class="template-title">Executive Elite</h4>
+                            <p class="template-category">Management, Consulting, Legal</p>
+                            <a href="#" class="btn btn-primary template-btn">Use This Template</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-ghost">View All Templates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Analysis Section -->
+    <section class="skill-analysis">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title text-start">AI Skill Analysis</h2>
+                    <p class="mb-4 text-muted">Our AI analyzes your skills and experience to highlight your strengths and suggest improvements.</p>
+                    
+                    <div class="skill-graph">
+                        <div class="skill-name">
+                            <span>Communication</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-graph">
+                        <div class="skill-name">
+                            <span>Leadership</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-graph">
+                        <div class="skill-name">
+                            <span>Project Management</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-graph">
+                        <div class="skill-name">
+                            <span>Technical Skills</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-graph">
+                        <div class="skill-name">
+                            <span>Industry Knowledge</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/5f70cce5559a80b0c5e2ee377193fad534d49b4e159c46da3136bebd8aac5981.jpg" alt="Skill Analysis" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Users Say</h2>
+            <p class="section-subtitle">Join thousands of professionals who have landed their dream jobs using ResumeAI.</p>
+            
+            <div class="bento-grid">
+                <div class="testimonial-card glass">
+                    <p class="testimonial-content">"I was struggling to get interviews for months. After using ResumeAI, I received 5 interview calls in just two weeks and landed my dream job at a Fortune 500 company!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/07a03b4b21b54b24e48f74643c5c56cf5e2b5bf2ba41fbd1fe256fba61c943e1.jpg" alt="Sarah Johnson" class="author-avatar">
+                        <div class="author-info">
+                            <h5>Sarah Johnson</h5>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass">
+                    <p class="testimonial-content">"The AI suggestions were spot on! It helped me highlight achievements I wouldn't have thought to include. My resume now perfectly showcases my skills and experience."</p>
+                    <div class="testimonial-author">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/4902a0d51f1be37f0d75882577f56e0a8c362f89888f11b516803b4cb156a78f.jpg" alt="Michael Chen" class="author-avatar">
+                        <div class="author-info">
+                            <h5>Michael Chen</h5>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass">
+                    <p class="testimonial-content">"As a career changer, I was worried about my resume gaps. ResumeAI helped me restructure my experience to highlight transferable skills. I got hired within a month!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/0415c53c0c073b7d4ba8aeb23f7d2eb1c11a35191bf321bf794fabb84cedb4cb.jpg" alt="Emily Rodriguez" class="author-avatar">
+                        <div class="author-info">
+                            <h5>Emily Rodriguez</h5>
+                            <p>Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle">Choose the plan that fits your needs. All plans include a 14-day free trial.</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card glass">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Basic</h3>
+                            <h4 class="pricing-price">$9.99</h4>
+                            <p class="pricing-duration">per month</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="ri-check-line"></i> 1 Resume & Cover Letter</li>
+                            <li><i class="ri-check-line"></i> 5 Premium Templates</li>
+                            <li><i class="ri-check-line"></i> Basic AI Content Suggestions</li>
+                            <li><i class="ri-check-line"></i> ATS Optimization</li>
+                            <li><i class="ri-check-line"></i> PDF & Word Downloads</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Start Free Trial</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card glass featured">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Professional</h3>
+                            <h4 class="pricing-price">$19.99</h4>
+                            <p class="pricing-duration">per month</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="ri-check-line"></i> Unlimited Resumes & Cover Letters</li>
+                            <li><i class="ri-check-line"></i> All Premium Templates</li>
+                            <li><i class="ri-check-line"></i> Advanced AI Content Generation</li>
+                            <li><i class="ri-check-line"></i> Industry-specific Keywords</li>
+                            <li><i class="ri-check-line"></i> Performance Analytics</li>
+                            <li><i class="ri-check-line"></i> All File Format Downloads</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Start Free Trial</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card glass">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Enterprise</h3>
+                            <h4 class="pricing-price">$39.99</h4>
+                            <p class="pricing-duration">per month</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="ri-check-line"></i> Everything in Professional</li>
+                            <li><i class="ri-check-line"></i> Priority Support</li>
+                            <li><i class="ri-check-line"></i> LinkedIn Profile Optimization</li>
+                            <li><i class="ri-check-line"></i> Interview Preparation AI</li>
+                            <li><i class="ri-check-line"></i> Career Coach Consultation</li>
+                            <li><i class="ri-check-line"></i> Custom Branding</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Start Free Trial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section class="dashboard-preview">
+        <div class="container">
+            <h2 class="section-title">Intuitive Dashboard</h2>
+            <p class="section-subtitle">Our user-friendly dashboard makes creating and managing your resumes simple and efficient.</p>
+            
+            <div class="row">
+                <div class="col-12">
+                    <img src="https://assets-persist.lovart.ai/img/295931054b8546d68800ff56a2cc8d9d/4439612fd7c758bf618f9b6b5be063ffb9864c64c54e5d690aced06ed8e0a227.jpg" alt="Dashboard Preview" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title">Ready to Land Your Dream Job?</h2>
+            <p class="cta-subtitle">Join thousands of professionals who have transformed their careers with ResumeAI. Start your free 14-day trial today.</p>
+            <a href="#" class="btn btn-primary btn-lg">Start Free Trial <i class="ri-arrow-right-line"></i></a>
+            <p class="mt-3 text-muted small">No credit card required. Cancel anytime.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3 class="footer-logo">ResumeAI</h3>
+                    <p class="footer-description">AI-powered resume builder helping professionals land their dream jobs with optimized resumes and cover letters.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-title">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#templates">Templates</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Resume Tips</a></li>
+                        <li><a href="#">Career Advice</a></li>
+                        <li><a href="#">Interview Prep</a></li>
+                        <li><a href="#">Job Search Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 ResumeAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
